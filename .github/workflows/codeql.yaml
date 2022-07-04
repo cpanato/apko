@@ -19,10 +19,10 @@ jobs:
       with:
         go-version: ${{ env.GO_VERSION }}
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@a3a6c128d771b6b9bdebb1c9d0583ebd2728a108
+      uses: github/codeql-action/init@3f62b754e23e0dd60f91b744033e1dc1654c0ec6
       with:
         languages: go
     - name: build
       run: make apko
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@a3a6c128d771b6b9bdebb1c9d0583ebd2728a108
+      uses: github/codeql-action/analyze@3f62b754e23e0dd60f91b744033e1dc1654c0ec6

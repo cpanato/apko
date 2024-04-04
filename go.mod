@@ -17,7 +17,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/spf13/cobra v1.8.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	github.com/tmc/dot v0.0.0-20210901225022-f9bc17da75c0
 	go.opentelemetry.io/otel v1.20.0
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
